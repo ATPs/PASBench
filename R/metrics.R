@@ -1,5 +1,5 @@
 library(reticulate)
-use_python('/share/apps/anaconda3/bin/python3',required = T)
+use_python('/data/p/anaconda3/bin/python3',required = T)
 library(igraph)
 library(scran)
 library(Seurat)
