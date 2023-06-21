@@ -1,6 +1,6 @@
 library(reticulate)
 use_python('/data/p/anaconda3/bin/python3',required = T)
-invisible(ulimit::memory_limit(102400))
+# invisible(ulimit::memory_limit(102400))
 source('./tools.R')
 source('./evaluation.R')
 source('./utils.R')
